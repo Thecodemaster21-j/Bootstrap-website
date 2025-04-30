@@ -1,0 +1,29 @@
+#Home{
+  height: 100vh;
+  background-image: url('images/photo-1554176259-aa961fc32671.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar-nav .nav-link {
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+.hero-section h1, 
+.hero-section p {
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.7);
+}
+.contact-section {
+  background-color: #f8f9fa;
+}
+
+.about-section h2,
+.contact-section h2 {
+  font-weight: 700;
+}
+
+.contact-section .form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
