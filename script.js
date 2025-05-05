@@ -11,4 +11,10 @@ function validateEmail(email) {
   return email.includes("@") && email.includes(".");
 }
 console.log(validateEmail("test@example.com")); // true
-
+// dark mode
+function toggleDarkMode() {
+  document.body.classList.toggle("dark-mode");
+}
+function mockLogin() {
+  alert("Logged in as Demo User!");
+}
